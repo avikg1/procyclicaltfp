@@ -8,3 +8,6 @@ If you'd like to play around yourself, look up any country's tfp graph on the FR
 and then check for the country code in the series id (e.g INA in RTFPNAINA632NRUG). Add two files ('UNEM/CODE.csv' and 'TFP/CODE.csv') to the countries list in the first line of
 the makefile. If this is the standard country code, you'll be done. If this is not, (IND is standard, not INA), you'll have to go to the unempdata.csv file and find and replace the new country
 code in. This inconvenience is one thing I'd like to try and solve in the future.
+
+Note: if you'd like to get other data from the FRED using the method in the make file, you will need to get the fredric package (https://github.com/DannyBen/fredric)
+and a FRED api key.
